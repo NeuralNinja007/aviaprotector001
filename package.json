@@ -1,0 +1,38 @@
+{
+  "name": "avia-protector",
+  "version": "1.0.0",
+  "description": "Aviation Safety and Security System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev:full": "concurrently \"npm run dev\" \"npm run client\""
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.120.8",
+    "@react-three/fiber": "^8.17.12",
+    "@types/three": "^0.172.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.0",
+    "qrcode": "^1.5.3",
+    "react-error-boundary": "^5.0.0",
+    "speakeasy": "^2.0.0",
+    "three": "^0.172.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
